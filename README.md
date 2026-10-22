@@ -1,4 +1,4 @@
-# Abraham Gaddissee — Home & Resume Website
+# Abraham Takale — Home & Resume Website
 
 ## Files
 - `index.html` — Home page
