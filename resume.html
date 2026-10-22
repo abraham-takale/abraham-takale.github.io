@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Resume of Abraham Gaddissee, Software Engineering student at ASTU.">
+  <title>Abraham Gaddissee | Resume</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="index.html"><span class="brand-mark">AG</span><span>Abraham Gaddissee</span></a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a class="active" href="resume.html">Resume</a>
+        <a href="https://github.com/abraham-takale" target="_blank" rel="noreferrer">GitHub ↗</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container resume-wrap">
+    <section class="resume-intro">
+      <p class="eyebrow">CURRICULUM VITAE</p>
+      <h1>Abraham <span>Gaddissee</span></h1>
+      <p class="lead">Software Engineering Student · Aspiring Software Developer</p>
+      <div class="resume-contact">
+        <span>Ethiopia</span><span>GitHub: <a href="https://github.com/abraham-takale" target="_blank" rel="noreferrer">abraham-takale</a></span>
+        <span>Email: <em>Add your email</em></span>
+      </div>
+      <button class="button primary print-button" onclick="window.print()">Print / Save as PDF</button>
+    </section>
+
+    <section class="resume-section">
+      <h2>Professional Summary</h2>
+      <p>Third-year Software Engineering student at Adama Science and Technology University (ASTU), building a foundation in Python, Java, SQL, data structures, algorithms, and problem-solving. Interested in backend development, database systems, and practical software engineering. Seeking a Software Development Internship to gain experience, contribute to useful software, and continue learning.</p>
+    </section>
+
+    <section class="resume-section">
+      <h2>Education</h2>
+      <div class="entry">
+        <div class="entry-top"><h3>Adama Science and Technology University (ASTU)</h3><span class="pill">Year 3</span></div>
+        <p class="muted">Bachelor of Science in Software Engineering · Ethiopia</p>
+      </div>
+    </section>
+
+    <section class="resume-section">
+      <h2>Technical Skills</h2>
+      <div class="skill-grid">
+        <div><h3>Programming</h3><p>Python · Java · SQL</p></div>
+        <div><h3>Web Development</h3><p>Django · HTML · CSS</p></div>
+        <div><h3>Databases</h3><p>Relational database concepts · PostgreSQL basics</p></div>
+        <div><h3>Tools</h3><p>Git · GitHub · Visual Studio Code</p></div>
+        <div><h3>Computer Science</h3><p>Data Structures and Algorithms · Problem-solving · OOP fundamentals</p></div>
+      </div>
+    </section>
+
+    <section class="resume-section">
+      <h2>Private Project Experience</h2>
+      <div class="entry">
+        <div class="entry-top"><h3>Private Django Web Application</h3><span class="pill private">Private</span></div>
+        <p class="muted">Python · Django · SQL · HTML · CSS · Git</p>
+        <p>Developing a web application while practicing backend development, data management, and web application design.</p>
+        <ul>
+          <li>Working with Django models, views, templates, and URL routing.</li>
+          <li>Practicing relational data management and SQL concepts.</li>
+          <li>Building and improving web application functionality through iterative development.</li>
+          <li>Using Git and GitHub for version control.</li>
+        </ul>
+        <p class="privacy-note">Project name and repository link are intentionally omitted to keep the project private.</p>
+      </div>
+    </section>
+
+    <section class="resume-section">
+      <h2>Competitive Programming</h2>
+      <ul>
+        <li>Practice algorithmic problem-solving with Python on Codeforces.</li>
+        <li>Study sorting, searching, data structures, and mathematical problem-solving.</li>
+        <li>Improve programming logic through regular coding exercises.</li>
+      </ul>
+    </section>
+
+    <section class="resume-section">
+      <h2>Core Strengths</h2>
+      <div class="strength-tags"><span>Analytical thinking</span><span>Problem-solving</span><span>Self-learning</span><span>Adaptability</span><span>Continuous improvement</span></div>
+    </section>
+
+    <section class="resume-section objective">
+      <h2>Career Objective</h2>
+      <p>To secure a Software Development Internship where I can apply my programming fundamentals, learn from experienced developers, and contribute to building reliable and useful software.</p>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><span>© <span id="year"></span> Abraham Gaddissee</span><a href="index.html">← Back to Home</a></div></footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
