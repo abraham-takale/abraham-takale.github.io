@@ -83,7 +83,6 @@ h1 span{color:var(--blue)}
 @media print{body{background:white;font-size:12px}.site-header,.footer,.print-button{display:none!important}.resume-wrap{width:100%;padding:0;max-width:none}.resume-intro h1{font-size:30px}.resume-section{padding:14px 0}.resume-section p,.resume-section li{font-size:11px}.skill-grid>div{break-inside:avoid}.resume-section,.entry{break-inside:avoid}a{color:inherit;text-decoration:none}}
 
 
-<style>
   .subscribe-tyl {
     background-color: rgb(200, 0, 0);
     color: white;
@@ -176,4 +175,3 @@ h1 span{color:var(--blue)}
   gap: 15px;
   flex-wrap: wrap;
 }
-</style>
